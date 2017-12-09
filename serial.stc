@@ -1,0 +1,83 @@
+# Script for testing modules
+#
+
+set verbose 0
+#processor pic18f4320
+load s serial.cod
+
+#set verbose 5
+
+
+#load c gpio_stim.stc
+
+module library libgpsim_lcd.so
+module library libgpsim_modules.so
+
+module list
+
+
+module load lcd_display lcd1
+
+#module load lcd_moj lcd1
+#module load usart
+node nTx 
+node nRx
+attach nTx portc6 usart0.TX
+attach nRx portc7 usart0.RX
+
+
+#load c stimulus_file
+
+node serial_node
+#attach 
+#module set usart0 txbaud 10000
+#module set usart0 rxbaud 10000
+
+node nE
+node nRW
+node nDC
+
+#  Define the data bus nodes.
+# since we'll only use '4-bit' we won't need all 8 data lines
+
+node d0
+node d1
+node d2
+node d3
+node d4
+node d5
+node d6
+node d7
+
+
+attach nE portb0 lcd1.E
+attach nRW portb2 lcd1.RW
+attach nDC portb1 lcd1.DC
+
+# 4-bit mode - only the upper half of the data
+# bus needs to be connected.
+
+attach d0 portd0 lcd1.d0
+attach d1 portd1 lcd1.d1
+attach d2 portd2 lcd1.d2
+attach d3 portd3 lcd1.d3
+attach d4 portd4 lcd1.d4
+attach d5 portd5 lcd1.d5
+attach d6 portd6 lcd1.d6
+attach d7 portd7 lcd1.d7
+#frequency  4096000
+frequency         4194304
+#break e test_petla
+break e pokaz_rejestr
+break e Start
+break e miganie
+break e rozpocznij_pomiary
+break e zapisz_do_pamieci
+break e wyslij_znak
+#break e poczatek_odbioru
+break e przerwanie_pomiaru
+break e inicjuj_pomiar
+break e przerwanie_pomiaru
+break e ustaw_probki
+break e wysylanie_pomiaru
+break e rozkazy_ds1820

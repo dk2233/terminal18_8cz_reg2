@@ -1,0 +1,272 @@
+EESchema Schematic File Version 1
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,.\reg.cache
+EELAYER 23  0
+EELAYER END
+$Descr A3 16535 11700
+Sheet 1 1
+Title ""
+Date "8 nov 2007"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7350 8450 6950 8450
+Wire Wire Line
+	6950 8450 6950 6750
+Wire Wire Line
+	6950 6750 9450 6750
+Wire Wire Line
+	9450 5400 9450 6750
+Wire Wire Line
+	7900 5400 9450 5400
+Wire Wire Line
+	9200 7350 8950 7350
+Wire Wire Line
+	8950 7350 8950 7550
+Wire Wire Line
+	9200 8150 8950 8150
+Wire Wire Line
+	8950 8150 8950 8050
+Wire Wire Line
+	10500 8250 8950 8250
+Wire Wire Line
+	10200 7950 10200 7850
+Wire Wire Line
+	10200 7850 10500 7850
+Wire Wire Line
+	7350 8250 7050 8250
+Wire Wire Line
+	7050 8250 7050 6850
+Wire Wire Line
+	7050 6850 9300 6850
+Wire Wire Line
+	4400 4300 3950 4300
+Wire Wire Line
+	4400 5000 4050 5000
+Wire Wire Line
+	7900 4900 8200 4900
+Wire Wire Line
+	4400 3400 4400 3500
+Wire Wire Line
+	4400 5100 4050 5100
+Wire Wire Line
+	7900 4800 8200 4800
+Wire Wire Line
+	3450 4100 4400 4100
+Wire Wire Line
+	3450 5200 3450 5250
+Wire Wire Line
+	10500 8450 8950 8450
+Wire Wire Line
+	8950 7850 8950 7750
+Wire Wire Line
+	8950 7750 9200 7750
+Wire Wire Line
+	7900 5500 9300 5500
+Wire Wire Line
+	9300 5500 9300 6850
+$Comp
+L CAPAPOL C?
+U 1 1 47333B38
+P 9200 7950
+F 0 "C?" H 9250 8050 50  0000 L C
+F 1 "1uF" H 9250 7850 50  0000 L C
+	1    9200 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAPAPOL C?
+U 1 1 47333B2E
+P 9200 7550
+F 0 "C?" H 9250 7650 50  0000 L C
+F 1 "1uF" H 9250 7450 50  0000 L C
+	1    9200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C?
+U 1 1 47333AF3
+P 7350 7850
+F 0 "C?" H 7400 7950 50  0000 L C
+F 1 "1uF" H 7400 7750 50  0000 L C
+	1    7350 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C?
+U 1 1 47333AE8
+P 7350 7350
+F 0 "C?" H 7400 7450 50  0000 L C
+F 1 "1uF" H 7400 7250 50  0000 L C
+	1    7350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 47333ADD
+P 11300 6850
+F 0 "C?" H 11350 6950 50  0000 L C
+F 1 "C" H 11350 6750 50  0000 L C
+	1    11300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C?
+U 1 1 47333AD3
+P 10000 7200
+F 0 "C?" H 10050 7300 50  0000 L C
+F 1 "CAPAPOL" H 10050 7100 50  0000 L C
+	1    10000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 47333A9F
+P 8950 7150
+F 0 "#PWR?" H 8950 7240 20  0001 C C
+F 1 "+5V" H 8950 7240 30  0000 C C
+	1    8950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 47333A85
+P 8950 7850
+F 0 "#PWR?" H 8950 7850 30  0001 C C
+F 1 "GND" H 8950 7780 30  0001 C C
+	1    8950 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 473339CA
+P 10200 7950
+F 0 "#PWR?" H 10200 7950 30  0001 C C
+F 1 "GND" H 10200 7880 30  0001 C C
+	1    10200 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB9 J?
+U 1 1 47333985
+P 10950 8250
+F 0 "J?" H 10950 8800 70  0000 C C
+F 1 "DB9" H 10950 7700 70  0000 C C
+	1    10950 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX232 U?
+U 1 1 47333876
+P 8150 7850
+F 0 "U?" H 8150 8700 70  0000 C C
+F 1 "MAX232" H 8150 7000 70  0000 C C
+	1    8150 7850
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 3800 0    60   ~
+wejœcie lm35
+$Comp
+L GND #PWR?
+U 1 1 47333717
+P 3950 4300
+F 0 "#PWR?" H 3950 4300 30  0001 C C
+F 1 "GND" H 3950 4230 30  0001 C C
+	1    3950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 473336DB
+P 3450 5250
+F 0 "#PWR?" H 3450 5250 30  0001 C C
+F 1 "GND" H 3450 5180 30  0001 C C
+	1    3450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4051 U?
+U 1 1 47333545
+P 2750 4700
+F 0 "U?" H 2850 4700 60  0000 C C
+F 1 "4051" H 2850 4500 60  0000 C C
+	1    2750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 473324EF
+P 4400 3400
+F 0 "#PWR?" H 4400 3490 20  0001 C C
+F 1 "+5V" H 4400 3490 30  0000 C C
+	1    4400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 473324E7
+P 4050 5000
+F 0 "#PWR?" H 4050 5090 20  0001 C C
+F 1 "+5V" H 4050 5090 30  0000 C C
+	1    4050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 473324D8
+P 8200 4800
+F 0 "#PWR?" H 8200 4890 20  0001 C C
+F 1 "+5V" H 8200 4890 30  0000 C C
+	1    8200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 473324B8
+P 9450 4500
+F 0 "#PWR?" H 9450 4590 20  0001 C C
+F 1 "+5V" H 9450 4590 30  0000 C C
+	1    9450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 47332445
+P 4050 5100
+F 0 "#PWR?" H 4050 5100 30  0001 C C
+F 1 "GND" H 4050 5030 30  0001 C C
+	1    4050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 47332439
+P 8200 4900
+F 0 "#PWR?" H 8200 4900 30  0001 C C
+F 1 "GND" H 8200 4830 30  0001 C C
+	1    8200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 47331E8B
+P 4400 3750
+F 0 "R?" V 4480 3750 50  0000 C C
+F 1 "R" V 4400 3750 50  0000 C C
+	1    4400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIC18F4455_DIP40 U?
+U 1 1 47331C04
+P 6150 4950
+F 0 "U?" H 6150 4850 50  0000 C C
+F 1 "PIC18F4455_DIP40" H 6150 5050 50  0000 C C
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,826 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu May 15 02:12:13 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000004
+                   .org_2       code   0x000008    program   0x001eca
+.config_300001_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300001    program   0x000001
+.config_300002_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300002    program   0x000001
+.config_300003_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300003    program   0x000001
+.config_300005_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300005    program   0x000001
+.config_300006_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300006    program   0x000001
+.config_300008_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300008    program   0x000001
+.config_300009_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x300009    program   0x000001
+.config_30000A_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x30000a    program   0x000001
+.config_30000B_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x30000b    program   0x000001
+.config_30000C_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x30000c    program   0x000001
+.config_30000D_SERIAL_DWA_REGULATORY_MPLAB.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x001ed1      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            7897 out of 8472 program addresses used, program memory utilization is 93%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BEGIN   0x000000    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           BEGIN2lcd_init   0x001dc4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                 CCP_init   0x001db8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     LOOP   0x001cfa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    LOOP1   0x001d54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                   LOOP11   0x001d30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    LOOP2   0x001d60    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        LOOP_sprawdz_keys   0x001d18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         LOOP_temperatury   0x001d36    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    Start   0x000396    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            TMR_nie_pusty   0x00063a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          TXREG_nie_pusty   0x000640    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              Timer3_init   0x001dc0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wlaczania_pomiarow   0x000630    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_pradu   0x000b36    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  bez_wyswietlania_pradu2   0x000b82    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_temp1   0x000a6a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_temp2   0x000af4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    check   0x0002d0    program     static ../libs/lcd4bit18.asm    
+               check_busy   0x0002c2    program     static ../libs/lcd4bit18.asm    
+           check_if_write   0x000374    program     static ../libs/eeprom18.asm     
+               clear_line   0x0002a4    program     static ../libs/lcd4bit18.asm    
+           clear_line_old   0x000276    program     static ../libs/lcd4bit18.asm    
+          clear_line_old2   0x00028a    program     static ../libs/lcd4bit18.asm    
+         clear_line_petla   0x0002aa    program     static ../libs/lcd4bit18.asm    
+                  cmd_off   0x000272    program     static ../libs/lcd4bit18.asm    
+                cyfry_0_9   0x0006ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              czekaj05sek   0x000228    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            czekaj05sek_1   0x001d72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            czytaj_eeprom   0x00036a    program     static ../libs/eeprom18.asm     
+           czytam_4_linie   0x0017f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          czytam_4_linie2   0x001802    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          czytam_4_linie3   0x001814    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       czytam_druga_linie   0x0017ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      czytam_druga_linie2   0x0017c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    czytam_pierwsza_linie   0x0017a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     czytam_trzecia_linie   0x0017d8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    czytam_trzecia_linie2   0x0017e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+enter_back_wyjsc_z_op_wys_liczb   0x001c96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+enter_back_wyjsc_z_opcji_czujnik   0x001c1a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          hex2_dec_koniec   0x000572    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                hex2dec18   0x00050e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     hex2dec18_brak_setek   0x000544    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec18_nie_przekroczono_1   0x000532    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec_temperatur_popraw_o_128   0x000562    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec_temperatur_popraw_o_64   0x000556    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                inicjacja   0x001d64    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           inicjuj_pomiar   0x0006f8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      juz_wysylac_znak_LF   0x000e06    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             koncz_z_moca   0x000d6e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            koncz_z_moca2   0x000d8c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         koniec_mierzenia   0x000d90    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          koniec_pomiarow   0x000e16    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      koniec_wyswietlania   0x0008a2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  kopiuj_liczbe_przeslana   0x0006c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                 lcd_init   0x0002f6    program     static ../libs/lcd4bit18.asm    
+               mala_petla   0x000218    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              napisz_czas   0x000574    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       napisz_czas_dalej1   0x000592    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     napisz_czas_litera_r   0x000590    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+napisz_wartosc_temperatury   0x000ac8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     next   0x001dec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+nie_czysc_rejestru_polozenia   0x000a7c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        nie_pisz_litery_r   0x00058a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+nie_przekroczono_bajtu_ulamka   0x0009dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+odczytaj_adr_polozenia_gwiazdki   0x001bc4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ odczytuje_opcje_z_eeprom   0x000416    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+odejmij_512_od_wyniku_sredniej   0x000990    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  odznacz_by_znow_mierzyc   0x0005f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          petla_dzielenia   0x0009aa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        petla_napisz_czas   0x0005bc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_napisz_czas_dwukropek   0x0005b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_odczytu_poprawek_z_eeprom   0x0003a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_odczytuje_opcje_z_eeprom   0x00041e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         petla_spr_nastaw   0x0004a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   petla_spr_nastaw_dalej   0x0004b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  petla_spr_nastaw_dalej2   0x0004c0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             petla_zapisu   0x000202    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             pisz_cyfre_1   0x000912    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            pisz_cyfre_10   0x000906    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_cyfre_100   0x0008fa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_00   0x000938    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_25   0x00094e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_50   0x000964    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_75   0x00097a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            pokaz_rejestr   0x0006f4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       powlaczaj_moc_reg2   0x000d72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         powrot_z_polecen   0x000844    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+proc_wyswietl_kolej_liczb_zegara   0x001c34    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ procedura_obslugi_zegara   0x000630    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_2   0x000c5a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_cool1   0x000c02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_cool2   0x000cd6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_grzanie1   0x000baa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_grzanie2   0x000c7e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwustawnej   0x000b86    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_sumowania_wyniku   0x0009ca    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               przerwanie   0x000008    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_1   0x00002e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_2   0x00003a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_3   0x000046    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_4   0x000052    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_5   0x00005e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_6   0x000064    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_7   0x000070    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       przerwanie_pomiaru   0x000190    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     przerwanie_wysylania   0x00017c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    regulacja_dwu_moc_OFF   0x000bce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   regulacja_dwu_moc_OFF2   0x000ca2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     regulacja_dwu_moc_ON   0x000be6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    regulacja_dwu_moc_ON2   0x000cba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wyl_cool2   0x000d24    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz   0x000bf8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz2   0x000ccc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz_cool   0x000c50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_OFF   0x000c26    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_OFF2   0x000cfa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_ON   0x000c3e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_ON2   0x000d12    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+rozkaz_rejestracji_poprawki_temp   0x0007b6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       rozpocznij_pomiary   0x000608    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     sa_rowne_nic_nie_rob   0x000bfe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sa_rowne_nic_nie_rob2   0x000cd2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   sa_rowne_sprawdz_Lbajt   0x000bc8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  sa_rowne_sprawdz_Lbajt2   0x000c9c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sa_rowne_sprawdz_Lbajt_cool   0x000c20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sa_rowne_sprawdz_Lbajt_cool2   0x000cf4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     send   0x000246    program     static ../libs/lcd4bit18.asm    
+           send4bit_petla   0x00024c    program     static ../libs/lcd4bit18.asm    
+spr_czy_mam_dalej_mierz_prad   0x000d40    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+spr_czy_wchodze_do_zmiany_opcji   0x001862    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   spr_czy_wylaczyc_triak   0x0015f8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               sprawdz_10   0x0008cc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         sprawdz_RTS_prad   0x000d96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mam_dalej_mierzyc   0x000d2e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mam_wyswietlac_47   0x000a96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mozna_wysylac   0x00063a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_odebrano_litere   0x00068e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_odebrano_mala_litere   0x0006ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sprawdz_czy_polecenie   0x0007ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane2   0x000ebc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane3   0x000ec8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane4   0x000ed4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sprawdz_druga_nastawe   0x0004e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            sprawdz_dzien   0x0000e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          sprawdz_godziny   0x000102    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  sprawdz_ktore_polecenie   0x0007fc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ sprawdz_pierwsza_nastawe   0x0004de    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_zwiekszanie_godz_normal   0x00170c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    tab_poprawnych_nastaw   0x0004ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          tablica_czwarta   0x001e70    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            tablica_druga   0x001e2a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         tablica_gwiazdki   0x001ecc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            tablica_piata   0x001e98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         tablica_pierwsza   0x001e08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          tablica_trzecia   0x001e4a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              test_koniec   0x001e02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     usrednianie_wartosci   0x0009a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        ustaw_linie_druga   0x000ab8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      ustaw_linie_trzecia   0x000aa8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  ustaw_opcje_standartowe   0x0004ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             ustaw_probki   0x00078c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          ustaw_regulator   0x000768    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_spr_szybkiej_zmiany   0x000ed8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_wartosc_dziel_usredniania   0x00076c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_wyswietlanie_czasu_na_lcd   0x00010e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   ustawienia_low_voltage   0x0004f2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustawienia_low_voltage_loop   0x0004f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     wait   0x000238    program     static ../libs/lcd4bit18.asm    
+        wait_kilka_sekund   0x00021c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wait_petla   0x00023a    program     static ../libs/lcd4bit18.asm    
+           wcisnieto_back   0x000e72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wcisnieto_down   0x000e80    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          wcisnieto_enter   0x000ee2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wcisnieto_up   0x000e98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wlacz_przerwanie_tmr3   0x000e66    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wlaczenie_rejestracji_pradu   0x0007b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                write_lcd   0x000268    program     static ../libs/lcd4bit18.asm    
+wybor_czujnika_regulatora   0x0007e6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wyjscie_przerwanie   0x000076    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_down_spr_czy_wys_kolej_opcje   0x000f34    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_down_wyswietl_opcje_tabl_2   0x000fa6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_up_spr_czy_wyswi_kol_opcje   0x001320    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_up_wyswietl_opcje_tabl_dwa   0x00139c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykonano_pom_wszystkich_kanalow   0x000d54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_down_zmian_opcji_wysw_kanal   0x001030    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_enter_gdzie_wysw_licz_bajt   0x001bda    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wysw_opcje_tab_pierwsza   0x001374    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wysw_opcje_tabli_cztery   0x0013ec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tab_trzy   0x0013c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tabl_5   0x001414    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tabl_end   0x001414    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_zmiana_opcji_wysw_kanaly   0x00148c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_back   0x000ef0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_back_exit   0x000f0e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wykryto_back_nic_nie_rob   0x000f0e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_blad   0x00018a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_down   0x000f16    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_3_wyswietl   0x001090    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_down_exit   0x0012f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_exit_trzymanie   0x0012fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr15_nie_ma_zero   0x0011d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr16_nie_ma_zero   0x001206    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_3_zmni_probki   0x001084    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_5_zawracanie   0x0010ca    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_6_zawracanie   0x0010f2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz15_show   0x0011d8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz16_show   0x001208    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz21   0x0012f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_10   0x00111e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_11   0x00113e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_1   0x001258    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_2   0x00128c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_3   0x0012c0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_4   0x0012e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_12   0x00115e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_13   0x00117e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_13_zero   0x001192    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_14   0x00119e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_14_zero   0x0011b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_15   0x0011be    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_16   0x0011ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_17   0x00121e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_2   0x00104c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_20   0x00121e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_3   0x00106c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_4   0x0010ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_5   0x0010ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_5_zero   0x0010ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_6   0x0010d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_6_zero   0x0010f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_7   0x0010fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_9   0x0010fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wys_opcje_tab_trzy   0x000fb6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wysw_opcje_tab_4   0x000fc6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wysw_opcje_tab_5   0x000fd6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_zmiana_opcji   0x00101a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_zmiana_pol_gwiazdki   0x000fe6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            wykryto_enter   0x001816    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wykryto_enter_exit   0x001bbc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje10   0x0019a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje11   0x0019c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje12   0x0019e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje13   0x001a04    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje14   0x001a1a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje15   0x001a30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje16   0x001a50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje17   0x001a70    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje18   0x001a7e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje19   0x001a8c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje2   0x001888    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje20   0x001a9a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje21   0x001ab0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje3   0x0018a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje4   0x0018c8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje5   0x0018dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje6   0x001922    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje7   0x001968    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje8   0x001976    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje9   0x001984    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje10   0x001b28    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje11   0x001b38    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje11_1   0x001bb0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje12   0x001b48    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje13   0x001b58    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje14   0x001b68    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje15   0x001b78    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje16   0x001b88    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje17   0x001b98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje2   0x001ad8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje20   0x001b98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje21   0x001bbc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje3   0x001ae8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje4   0x001af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje5   0x001af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje6   0x001b08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje7   0x001b18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje9   0x001b18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_zmiana_opcji   0x001ab4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      wykryto_low_voltage   0x0001e0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wykryto_odbior   0x000138    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_odbior_CR   0x000168    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_odbior_odczyt   0x000138    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_oerr   0x000180    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_rb   0x00011c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t0   0x000128    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t1   0x000092    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wykryto_t1_wyjscie   0x000116    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t2   0x000132    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t3   0x0001ac    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wykryto_t3_nie_puszczono   0x0001c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_up   0x001302    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_3_wyswietl   0x0014f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          wykryto_up_exit   0x001786    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_exit_trzymanie   0x001794    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_spr_3_zwieksz_probki   0x0014e2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz15_increase   0x00166a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz15_show   0x00166c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz16_increase   0x001698    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz16_show   0x00169a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_10   0x001566    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_11   0x001586    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_12   0x0015a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_13   0x001612    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_13_dalej   0x001626    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_14   0x001632    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_14_dalej   0x001646    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_15   0x001652    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_16   0x001682    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_17   0x0016b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_2   0x0014a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_20   0x0016b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_1   0x0016ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_2   0x001724    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_3   0x001756    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_4   0x00177e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_21   0x001786    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_3   0x0014c8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_4   0x001506    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_5   0x001506    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_5_dalej   0x00151e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_6   0x001526    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_6_dalej   0x00153e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_7   0x001546    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_9   0x001546    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_zmiana_opcji   0x001478    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_zmiana_polozeni_gwiaz   0x001444    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wylacz_pomiary   0x000740    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         wylacz_regulator   0x00075c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wylaczam_moc   0x000d6c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            wylaczam_moc2   0x000d8a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wynik_to_po_prostu_L   0x0009a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyslij_na_ekran_to_co_odebralem   0x00084e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              wyslij_znak   0x000648    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wyslij_znak_koniec   0x000668    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wyslij_znak_petla   0x000650    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_2   0x001c5e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_3   0x001c6c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_4   0x001c6e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswi_kolejnych_liczb_zegara_1   0x001c50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wyswietl_1   0x0005ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury   0x0008a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury2   0x0008d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury_opcje   0x0008c2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wyswietl_litere_petla   0x000864    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wyswietl_litere_petla2   0x00087e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wyswietl_litere_petla3   0x00089c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      wyswietl_opcje_menu   0x001798    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wyswietl_opcje_regulacji   0x0015c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji1   0x0015d2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji2   0x0015de    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji3   0x001602    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wyswietl_puste   0x0005cc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wyswietl_temp_w_opcjach   0x0018ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wyswietl_temp_w_opcjach2   0x001934    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wysylanie_pomiaru   0x0009f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zalacz_chlodzenie1   0x000c18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zalacz_chlodzenie2   0x000cec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           zalacz_grzanie   0x000bc0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          zalacz_grzanie2   0x000c94    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            zamien_na_hex   0x0006dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapis_do_pamieci_prad   0x000af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapis_do_pamieci_temperatury   0x000a08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             zapis_eeprom   0x000374    program     static ../libs/eeprom18.asm     
+      zapisz_do_dzien_1_0   0x0016da    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_dzien_1_99   0x001248    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_godziny_1_9   0x00127c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_minuty_1_0   0x001746    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_minuty_1_9   0x0012b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pam_nie_spr_przekrocz   0x000a20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zapisz_do_pamieci   0x000a02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pamieci_czy_mam_send   0x000a20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pamieci_juz_po_SERIAL   0x000a58    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_sekundy_1_0   0x001772    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_sekundy_1_9   0x0012dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           zla_dana_wez_0   0x0006c2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zmierz_nast_czujnik_temperatury   0x000e30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zmierz_nastepny_kanal   0x000e3c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zmierz_nastepny_nie_3   0x000e54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              zmierz_prad   0x000e26    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         zmniejsz_dzien_1   0x001252    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zmniejsz_godziny_1   0x001286    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zmniejsz_minuty_1   0x0012ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zmniejsz_sekundy_1   0x0012e6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         znow_kaz_mierzyc   0x0009ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          zwieksz_dzien_1   0x0016e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zwieksz_godziny_1   0x00171e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         zwieksz_minuty_1   0x001750    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zwieksz_sekundy_1   0x00177c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                      ﻿   0x000000    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ﻿   0x000000    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    BEGIN   0x000000    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               przerwanie   0x000008    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_1   0x00002e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_2   0x00003a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_3   0x000046    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_4   0x000052    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_5   0x00005e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_6   0x000064    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             przerwanie_7   0x000070    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wyjscie_przerwanie   0x000076    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t1   0x000092    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            sprawdz_dzien   0x0000e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          sprawdz_godziny   0x000102    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_wyswietlanie_czasu_na_lcd   0x00010e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wykryto_t1_wyjscie   0x000116    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_rb   0x00011c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t0   0x000128    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t2   0x000132    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_odbior_odczyt   0x000138    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wykryto_odbior   0x000138    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_odbior_CR   0x000168    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     przerwanie_wysylania   0x00017c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_oerr   0x000180    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_blad   0x00018a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       przerwanie_pomiaru   0x000190    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_t3   0x0001ac    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wykryto_t3_nie_puszczono   0x0001c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      wykryto_low_voltage   0x0001e0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             petla_zapisu   0x000202    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               mala_petla   0x000218    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wait_kilka_sekund   0x00021c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              czekaj05sek   0x000228    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     wait   0x000238    program     static ../libs/lcd4bit18.asm    
+               wait_petla   0x00023a    program     static ../libs/lcd4bit18.asm    
+                     send   0x000246    program     static ../libs/lcd4bit18.asm    
+           send4bit_petla   0x00024c    program     static ../libs/lcd4bit18.asm    
+                write_lcd   0x000268    program     static ../libs/lcd4bit18.asm    
+                  cmd_off   0x000272    program     static ../libs/lcd4bit18.asm    
+           clear_line_old   0x000276    program     static ../libs/lcd4bit18.asm    
+          clear_line_old2   0x00028a    program     static ../libs/lcd4bit18.asm    
+               clear_line   0x0002a4    program     static ../libs/lcd4bit18.asm    
+         clear_line_petla   0x0002aa    program     static ../libs/lcd4bit18.asm    
+               check_busy   0x0002c2    program     static ../libs/lcd4bit18.asm    
+                    check   0x0002d0    program     static ../libs/lcd4bit18.asm    
+                 lcd_init   0x0002f6    program     static ../libs/lcd4bit18.asm    
+            czytaj_eeprom   0x00036a    program     static ../libs/eeprom18.asm     
+             zapis_eeprom   0x000374    program     static ../libs/eeprom18.asm     
+           check_if_write   0x000374    program     static ../libs/eeprom18.asm     
+                    Start   0x000396    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_odczytu_poprawek_z_eeprom   0x0003a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ odczytuje_opcje_z_eeprom   0x000416    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_odczytuje_opcje_z_eeprom   0x00041e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         petla_spr_nastaw   0x0004a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   petla_spr_nastaw_dalej   0x0004b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  ustaw_opcje_standartowe   0x0004ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  petla_spr_nastaw_dalej2   0x0004c0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    tab_poprawnych_nastaw   0x0004ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ sprawdz_pierwsza_nastawe   0x0004de    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sprawdz_druga_nastawe   0x0004e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   ustawienia_low_voltage   0x0004f2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustawienia_low_voltage_loop   0x0004f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                hex2dec18   0x00050e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec18_nie_przekroczono_1   0x000532    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     hex2dec18_brak_setek   0x000544    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec_temperatur_popraw_o_64   0x000556    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+hex2dec_temperatur_popraw_o_128   0x000562    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          hex2_dec_koniec   0x000572    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              napisz_czas   0x000574    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        nie_pisz_litery_r   0x00058a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     napisz_czas_litera_r   0x000590    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       napisz_czas_dalej1   0x000592    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+petla_napisz_czas_dwukropek   0x0005b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        petla_napisz_czas   0x0005bc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wyswietl_puste   0x0005cc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wyswietl_1   0x0005ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  odznacz_by_znow_mierzyc   0x0005f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       rozpocznij_pomiary   0x000608    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ procedura_obslugi_zegara   0x000630    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wlaczania_pomiarow   0x000630    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            TMR_nie_pusty   0x00063a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mozna_wysylac   0x00063a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          TXREG_nie_pusty   0x000640    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              wyslij_znak   0x000648    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wyslij_znak_petla   0x000650    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wyslij_znak_koniec   0x000668    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_odebrano_litere   0x00068e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_odebrano_mala_litere   0x0006ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           zla_dana_wez_0   0x0006c2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  kopiuj_liczbe_przeslana   0x0006c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            zamien_na_hex   0x0006dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                cyfry_0_9   0x0006ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            pokaz_rejestr   0x0006f4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           inicjuj_pomiar   0x0006f8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wylacz_pomiary   0x000740    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         wylacz_regulator   0x00075c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          ustaw_regulator   0x000768    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_wartosc_dziel_usredniania   0x00076c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             ustaw_probki   0x00078c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wlaczenie_rejestracji_pradu   0x0007b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+rozkaz_rejestracji_poprawki_temp   0x0007b6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wybor_czujnika_regulatora   0x0007e6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sprawdz_czy_polecenie   0x0007ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  sprawdz_ktore_polecenie   0x0007fc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         powrot_z_polecen   0x000844    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyslij_na_ekran_to_co_odebralem   0x00084e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wyswietl_litere_petla   0x000864    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wyswietl_litere_petla2   0x00087e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wyswietl_litere_petla3   0x00089c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      koniec_wyswietlania   0x0008a2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury   0x0008a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury_opcje   0x0008c2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               sprawdz_10   0x0008cc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_cyfry_temperatury2   0x0008d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_cyfre_100   0x0008fa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            pisz_cyfre_10   0x000906    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             pisz_cyfre_1   0x000912    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_00   0x000938    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_25   0x00094e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_50   0x000964    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           pisz_ulamek_75   0x00097a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+odejmij_512_od_wyniku_sredniej   0x000990    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wynik_to_po_prostu_L   0x0009a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     usrednianie_wartosci   0x0009a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          petla_dzielenia   0x0009aa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_sumowania_wyniku   0x0009ca    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+nie_przekroczono_bajtu_ulamka   0x0009dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         znow_kaz_mierzyc   0x0009ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wysylanie_pomiaru   0x0009f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zapisz_do_pamieci   0x000a02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapis_do_pamieci_temperatury   0x000a08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pamieci_czy_mam_send   0x000a20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pam_nie_spr_przekrocz   0x000a20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zapisz_do_pamieci_juz_po_SERIAL   0x000a58    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_temp1   0x000a6a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+nie_czysc_rejestru_polozenia   0x000a7c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mam_wyswietlac_47   0x000a96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      ustaw_linie_trzecia   0x000aa8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        ustaw_linie_druga   0x000ab8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+napisz_wartosc_temperatury   0x000ac8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_temp2   0x000af4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapis_do_pamieci_prad   0x000af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   bez_wyswietlania_pradu   0x000b36    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  bez_wyswietlania_pradu2   0x000b82    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwustawnej   0x000b86    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_grzanie1   0x000baa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           zalacz_grzanie   0x000bc0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   sa_rowne_sprawdz_Lbajt   0x000bc8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    regulacja_dwu_moc_OFF   0x000bce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     regulacja_dwu_moc_ON   0x000be6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz   0x000bf8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     sa_rowne_nic_nie_rob   0x000bfe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_cool1   0x000c02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zalacz_chlodzenie1   0x000c18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sa_rowne_sprawdz_Lbajt_cool   0x000c20    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_OFF   0x000c26    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_ON   0x000c3e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz_cool   0x000c50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_2   0x000c5a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_grzanie2   0x000c7e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          zalacz_grzanie2   0x000c94    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  sa_rowne_sprawdz_Lbajt2   0x000c9c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   regulacja_dwu_moc_OFF2   0x000ca2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    regulacja_dwu_moc_ON2   0x000cba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wylacz2   0x000ccc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    sa_rowne_nic_nie_rob2   0x000cd2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+procedura_regulacji_dwu_cool2   0x000cd6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zalacz_chlodzenie2   0x000cec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sa_rowne_sprawdz_Lbajt_cool2   0x000cf4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_OFF2   0x000cfa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_cool_ON2   0x000d12    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+regulacja_dwu_moc_ON_wyl_cool2   0x000d24    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_mam_dalej_mierzyc   0x000d2e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+spr_czy_mam_dalej_mierz_prad   0x000d40    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykonano_pom_wszystkich_kanalow   0x000d54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wylaczam_moc   0x000d6c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             koncz_z_moca   0x000d6e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       powlaczaj_moc_reg2   0x000d72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            wylaczam_moc2   0x000d8a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            koncz_z_moca2   0x000d8c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         koniec_mierzenia   0x000d90    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         sprawdz_RTS_prad   0x000d96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      juz_wysylac_znak_LF   0x000e06    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          koniec_pomiarow   0x000e16    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              zmierz_prad   0x000e26    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+zmierz_nast_czujnik_temperatury   0x000e30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zmierz_nastepny_kanal   0x000e3c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zmierz_nastepny_nie_3   0x000e54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wlacz_przerwanie_tmr3   0x000e66    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wcisnieto_back   0x000e72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           wcisnieto_down   0x000e80    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wcisnieto_up   0x000e98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane2   0x000ebc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane3   0x000ec8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_czy_wlacz_szybka_zmiane4   0x000ed4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ustaw_spr_szybkiej_zmiany   0x000ed8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          wcisnieto_enter   0x000ee2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_back   0x000ef0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wykryto_back_nic_nie_rob   0x000f0e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_back_exit   0x000f0e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+             wykryto_down   0x000f16    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_down_spr_czy_wys_kolej_opcje   0x000f34    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_down_wyswietl_opcje_tabl_2   0x000fa6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wys_opcje_tab_trzy   0x000fb6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wysw_opcje_tab_4   0x000fc6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_wysw_opcje_tab_5   0x000fd6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_zmiana_pol_gwiazdki   0x000fe6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_zmiana_opcji   0x00101a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_down_zmian_opcji_wysw_kanal   0x001030    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_2   0x00104c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_3   0x00106c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_3_zmni_probki   0x001084    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_3_wyswietl   0x001090    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_5   0x0010ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_4   0x0010ae    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_5_zawracanie   0x0010ca    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_5_zero   0x0010ce    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_6   0x0010d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr_6_zawracanie   0x0010f2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_6_zero   0x0010f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_9   0x0010fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz_7   0x0010fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_10   0x00111e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_11   0x00113e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_12   0x00115e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_13   0x00117e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_13_zero   0x001192    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_14   0x00119e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_14_zero   0x0011b2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_15   0x0011be    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr15_nie_ma_zero   0x0011d6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz15_show   0x0011d8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_16   0x0011ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_spr16_nie_ma_zero   0x001206    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz16_show   0x001208    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_17   0x00121e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_down_sprawdz_20   0x00121e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_dzien_1_99   0x001248    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         zmniejsz_dzien_1   0x001252    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_1   0x001258    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_godziny_1_9   0x00127c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zmniejsz_godziny_1   0x001286    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_2   0x00128c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_minuty_1_9   0x0012b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zmniejsz_minuty_1   0x0012ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_3   0x0012c0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_sekundy_1_9   0x0012dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       zmniejsz_sekundy_1   0x0012e6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_sprawdz_11_4   0x0012e8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        wykryto_down_exit   0x0012f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   wykryto_down_sprawdz21   0x0012f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_down_exit_trzymanie   0x0012fe    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+               wykryto_up   0x001302    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_up_spr_czy_wyswi_kol_opcje   0x001320    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wysw_opcje_tab_pierwsza   0x001374    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyk_up_wyswietl_opcje_tabl_dwa   0x00139c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tab_trzy   0x0013c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wysw_opcje_tabli_cztery   0x0013ec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tabl_5   0x001414    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_wyswietl_opcje_tabl_end   0x001414    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_zmiana_polozeni_gwiaz   0x001444    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_zmiana_opcji   0x001478    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_up_zmiana_opcji_wysw_kanaly   0x00148c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_2   0x0014a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_3   0x0014c8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_spr_3_zwieksz_probki   0x0014e2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_3_wyswietl   0x0014f0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_5   0x001506    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_4   0x001506    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_5_dalej   0x00151e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_6   0x001526    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_6_dalej   0x00153e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_7   0x001546    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     wykryto_up_sprawdz_9   0x001546    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_10   0x001566    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_11   0x001586    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_12   0x0015a6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wyswietl_opcje_regulacji   0x0015c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji1   0x0015d2    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji2   0x0015de    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+   spr_czy_wylaczyc_triak   0x0015f8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswietl_opcje_regulacji3   0x001602    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_13   0x001612    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_13_dalej   0x001626    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_14   0x001632    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz_14_dalej   0x001646    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_15   0x001652    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz15_increase   0x00166a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz15_show   0x00166c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_16   0x001682    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz16_increase   0x001698    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_sprawdz16_show   0x00169a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_20   0x0016b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_17   0x0016b0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      zapisz_do_dzien_1_0   0x0016da    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          zwieksz_dzien_1   0x0016e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_1   0x0016ea    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+sprawdz_zwiekszanie_godz_normal   0x00170c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zwieksz_godziny_1   0x00171e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_2   0x001724    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     zapisz_do_minuty_1_0   0x001746    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         zwieksz_minuty_1   0x001750    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_3   0x001756    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    zapisz_do_sekundy_1_0   0x001772    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        zwieksz_sekundy_1   0x00177c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wykryto_up_sprawdz_20_4   0x00177e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          wykryto_up_exit   0x001786    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    wykryto_up_sprawdz_21   0x001786    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_up_exit_trzymanie   0x001794    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      wyswietl_opcje_menu   0x001798    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    czytam_pierwsza_linie   0x0017a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       czytam_druga_linie   0x0017ba    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+      czytam_druga_linie2   0x0017c6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+     czytam_trzecia_linie   0x0017d8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+    czytam_trzecia_linie2   0x0017e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           czytam_4_linie   0x0017f6    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          czytam_4_linie2   0x001802    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          czytam_4_linie3   0x001814    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            wykryto_enter   0x001816    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+spr_czy_wchodze_do_zmiany_opcji   0x001862    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje2   0x001888    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje3   0x0018a8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje4   0x0018c8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje5   0x0018dc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+  wyswietl_temp_w_opcjach   0x0018ee    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje6   0x001922    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+ wyswietl_temp_w_opcjach2   0x001934    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje7   0x001968    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje8   0x001976    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje9   0x001984    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje10   0x0019a4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje11   0x0019c4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje12   0x0019e4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje13   0x001a04    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje14   0x001a1a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje15   0x001a30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje16   0x001a50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje17   0x001a70    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje18   0x001a7e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje19   0x001a8c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje20   0x001a9a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_sprawdz_opcje21   0x001ab0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_zmiana_opcji   0x001ab4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje2   0x001ad8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje3   0x001ae8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje5   0x001af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje4   0x001af8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje6   0x001b08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje7   0x001b18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje9   0x001b18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje10   0x001b28    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje11   0x001b38    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje12   0x001b48    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje13   0x001b58    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje14   0x001b68    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje15   0x001b78    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje16   0x001b88    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje20   0x001b98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje17   0x001b98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje11_1   0x001bb0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykryto_enter_wyjscie_opcje21   0x001bbc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+       wykryto_enter_exit   0x001bbc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+odczytaj_adr_polozenia_gwiazdki   0x001bc4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wykr_enter_gdzie_wysw_licz_bajt   0x001bda    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+enter_back_wyjsc_z_opcji_czujnik   0x001c1a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+proc_wyswietl_kolej_liczb_zegara   0x001c34    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wyswi_kolejnych_liczb_zegara_1   0x001c50    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_2   0x001c5e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_3   0x001c6c    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+wysw_kolejnych_liczb_zegara_4   0x001c6e    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+enter_back_wyjsc_z_op_wys_liczb   0x001c96    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     LOOP   0x001cfa    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+        LOOP_sprawdz_keys   0x001d18    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                   LOOP11   0x001d30    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         LOOP_temperatury   0x001d36    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    LOOP1   0x001d54    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                    LOOP2   0x001d60    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                inicjacja   0x001d64    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            czekaj05sek_1   0x001d72    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                 CCP_init   0x001db8    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              Timer3_init   0x001dc0    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+           BEGIN2lcd_init   0x001dc4    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+                     next   0x001dec    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+              test_koniec   0x001e02    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         tablica_pierwsza   0x001e08    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            tablica_druga   0x001e2a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          tablica_trzecia   0x001e4a    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+          tablica_czwarta   0x001e70    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+            tablica_piata   0x001e98    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+         tablica_gwiazdki   0x001ecc    program     static C:\Users\daniel\Documents\pici\terminal18_8cz_reg2\serial_dwa_regulatory_mplab.asm
+
+
